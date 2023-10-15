@@ -293,11 +293,14 @@ module DLTS {
   /** ------------------------------------------------------------------------- **/
   /** Charcoal recipe to get started **/  
   
-  recipe LTS Make charcoal from twigs {
-    TinCanEmpty
-	Twigs=10
-    Result:Charcoal;1,
+  recipe LTS Make Charcoal at Campfire {
+    [Recipe.GetItemTypes.StartFire]
+    Log=5
+    TinCanEmpty,
+    Twigs=100,
     NearItem:Campfire,
+    Result:Charcoal,
+	CanBeDoneFromFloor:True,
     Time:1000.0,
     Category:LTS-Base,
   }
