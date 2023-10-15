@@ -18,7 +18,7 @@ module DLTS {
   }
   
   recipe LTS Homemade Mayo {
-    EmptyJar,
+    MayonnaiseEmpty,
     [Recipe.GetItemTypes.Egg],
     [Recipe.GetItemTypes.Egg],
     Salt;1,
