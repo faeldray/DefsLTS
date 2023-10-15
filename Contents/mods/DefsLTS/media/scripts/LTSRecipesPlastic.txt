@@ -50,6 +50,39 @@ module DLTS {
     OnGiveXP:CraftXP_SmithingPlastic,
   }  
  
+  recipe LTS Mold Mayonnaise Container {
+    BlowTorch=3,
+    keep SheetMetal,
+    LTSScrapPlastic=4,
+    Result:MayonnaiseEmpty,
+    Time:480.0,
+    Category:Welding,
+    Sound:PZ_Fire,
+    OnGiveXP:CraftXP_SmithingPlastic,
+  }  
+ 
+  recipe LTS Mold Remoulade Container {
+    BlowTorch=3,
+    keep SheetMetal,
+    LTSScrapPlastic=4,
+    Result:RemouladeEmpty,
+    Time:480.0,
+    Category:Welding,
+    Sound:PZ_Fire,
+    OnGiveXP:CraftXP_SmithingPlastic,
+  }  
+ 
+  recipe LTS Mold Bowl {
+    BlowTorch=3,
+    keep SheetMetal,
+    LTSScrapPlastic=5,
+    Result:Bowl,
+    Time:480.0,
+    Category:Welding,
+    Sound:PZ_Fire,
+    OnGiveXP:CraftXP_SmithingPlastic,
+  }  
+ 
   recipe LTS Mold Storage Box {
     BlowTorch=4,
     keep SheetMetal,
