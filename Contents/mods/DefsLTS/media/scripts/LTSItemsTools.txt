@@ -38,10 +38,11 @@ module DLTS {
     DisplayName=Scrapping Saw,
     Icon=HackSaw2,
     StaticModel=Hacksaw,
+	Tags=Saw
   }
   
   /** ------------------------------------------------------------------------- **/
-  /** Processing Tools: Wood Burner **/  
+  /** Processing Tools: Distillation Equipment **/  
   
   item LTSWoodBurner {
     Type=Normal,
