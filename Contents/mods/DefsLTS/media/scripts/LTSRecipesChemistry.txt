@@ -9,7 +9,7 @@ module DLTS {
 
   recipe LTS Process Wood to Wood Gas {
     keep LTSWoodBurner,
-    Matches/Lighter,
+    [Recipe.GetItemTypes.StartFire],
     LTSBriquette=2,
     LTSPropaneTankEmpty,
     Log=3,
@@ -22,9 +22,9 @@ module DLTS {
 
   recipe LTS Process Cones to Pine Tar {
     keep LTSWoodBurner,
-    Matches/Lighter,
-    LTSBriquette=2,
-    LTSPineCone=25,
+    [Recipe.GetItemTypes.StartFire],
+    LTSBriquette=1,
+    LTSPineCone/Pinecones=15,
     Result:LTSPineTar,
     Time:560.0,
     Sound:PZ_Fire,
@@ -34,8 +34,8 @@ module DLTS {
 
   recipe LTS Process Wood to Charcoal {
     keep LTSWoodBurner,
-    Matches/Lighter,
-    LTSBriquette=2,
+    [Recipe.GetItemTypes.StartFire],
+    LTSBriquette=1,
     Log=3,
     Result:Charcoal,
     Time:560.0,
@@ -47,8 +47,8 @@ module DLTS {
   recipe LTS Process Mature Juice to Moonshine {
     keep LTSWoodBurner,
     EmptyJar,
-    Matches/Lighter,
-    LTSBriquette=2,
+    [Recipe.GetItemTypes.StartFire],
+    LTSBriquette=1,
     LTSFermentingJuiceOld,
     Result:LTSMoonshine,
     Time:560.0,
@@ -63,9 +63,9 @@ module DLTS {
 
   recipe LTS Craft Briquettes {
     keep MortarPestle,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     LTSCharcoalPowder,
-    Woodglue=1,
+    [Recipe.GetItemTypes.Glue]=1,
     LTSWoodBits=2,
     PetrolCan=1,
     Result:LTSBriquette=2,
@@ -75,9 +75,9 @@ module DLTS {
 
   recipe LTS Craft Briquettes {
     keep MortarPestle,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     LTSCharcoalPowder,
-    Woodglue=1,
+    [Recipe.GetItemTypes.Glue]=1,
     LTSWoodBits=2,
     LTSLighterFluid=2,
     Result:LTSBriquette=3,
@@ -160,7 +160,7 @@ module DLTS {
     keep MortarPestle,
     LTSWoodBits=2,
     WoodenStick=4,
-    Matches/Lighter,
+    [Recipe.GetItemTypes.StartFire],
     Result:LTSWoodAsh,
     Time:560.0, 
     Sound:PZ_Fire,
@@ -178,7 +178,7 @@ module DLTS {
   recipe LTS Prepare Reduced Quicklime {
     keep Pot/Saucepan,
     keep MortarPestle,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     LTSLimestone=2,
     Water=3,
     Vinegar=1,
