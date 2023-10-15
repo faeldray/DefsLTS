@@ -106,8 +106,10 @@ module DLTS {
   /** Random Items (1 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    destroy Tweezers/Spoon/TentPeg/Scissors/PopEmpty/PaintbucketEmpty/Hinge/Fork/Doorknob/LetterOpener/ButterKnife/BreadKnife/KitchenKnife/Hairspray/Screwdriver/TinCanEmpty/TinOpener/HuntingKnife/MeatCleaver,
+    Tweezers/Spoon/TentPeg/Scissors/PopEmpty/PaintbucketEmpty/Hinge/Fork/Doorknob/LetterOpener/ButterKnife/BreadKnife/KitchenKnife/Hairspray/Screwdriver/TinCanEmpty/TinOpener/HuntingKnife/MeatCleaver,
     Result:ScrapMetal,
+	NoBrokenItems:false,
+	AllowDestroyedItem:true,
     Time:120.0,
     OnGiveXP:CraftXP_Scrapping,
     Category:Welding,
@@ -117,8 +119,10 @@ module DLTS {
   /** Random Items (2 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    destroy BakingPan/BarbedWire/HandShovel/HandScythe/HandFork/GardenHoe/GardenFork/Golfclub/FishingNet/GridlePan/Kettle/LeadPipe/LeafRake/Machete/Pan/Pot/RoastingPan/Saw/ScrewsBox/TrapCage/Wrench/TirePump/EngineParts/Saucepan/Wire,
+    BakingPan/BarbedWire/HandShovel/HandScythe/HandFork/GardenHoe/GardenFork/Golfclub/FishingNet/GridlePan/Kettle/LeadPipe/LeafRake/Machete/Pan/Pot/RoastingPan/Saw/ScrewsBox/TrapCage/Wrench/TirePump/EngineParts/Saucepan/Wire,
     Result:ScrapMetal=2,
+	NoBrokenItems:false,
+	AllowDestroyedItem:true,
     Time:180.0,
     OnGiveXP:CraftXP_Scrapping,
     Category:Welding,
@@ -128,8 +132,10 @@ module DLTS {
   /** Random Items (3 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    destroy Crowbar/Axe/Hammer/HandAxe/Katana/LugWrench/PipeWrench/Shovel/Shovel2/WoodAxe/Sledgehammer/Sledge[Recipe.GetItemTypes.Hammer]2/PickAxe/LTSPropaneTankEmpty/EmptyPetrolCan/LTSWaterCanEmpty/SmallSheetMetal/MetalBar/MetalPipe/NailsBox,
+    Crowbar/Axe/Hammer/HandAxe/Katana/LugWrench/PipeWrench/Shovel/Shovel2/WoodAxe/Sledgehammer/Sledge[Recipe.GetItemTypes.Hammer]2/PickAxe/LTSPropaneTankEmpty/EmptyPetrolCan/LTSWaterCanEmpty/SmallSheetMetal/MetalBar/MetalPipe/NailsBox,
     Result:ScrapMetal=3,
+	NoBrokenItems:false,
+	AllowDestroyedItem:true,
     Time:240.0,
     OnGiveXP:CraftXP_Scrapping,
     Category:Welding,
@@ -139,8 +145,10 @@ module DLTS {
   /** Random Items (5 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    destroy Jack/LTSWoodBurner/SheetMetal,
+    Jack/LTSWoodBurner/SheetMetal,
     Result:ScrapMetal=5,
+	NoBrokenItems:false,
+	AllowDestroyedItem:true,
     Time:360.0,
     OnGiveXP:CraftXP_Scrapping,
     Category:Welding,
@@ -150,8 +158,10 @@ module DLTS {
   /** Firearms (4 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    destroy AssaultRifle/AssaultRifle2/DoubleBarrelShotgun/HuntingRifle/Pistol/Pistol2/Pistol3/Revolver/Revolver_Long/Revolver_Short/Shotgun/ShotgunSawnoff/VarmintRifle,
+    AssaultRifle/AssaultRifle2/DoubleBarrelShotgun/HuntingRifle/Pistol/Pistol2/Pistol3/Revolver/Revolver_Long/Revolver_Short/Shotgun/ShotgunSawnoff/VarmintRifle,
     Result:ScrapMetal=4,
+	NoBrokenItems:false,
+	AllowDestroyedItem:true,
     Time:300.0,
     OnGiveXP:CraftXP_Scrapping,
     Category:Welding,
