@@ -8,8 +8,8 @@ module DLTS {
   /** Crafting Chemical Cells (Battery) **/
   
   recipe LTS Create Chemical Battery {
-    keep Hammer,
-    keep Saw,
+    keep [Recipe.GetItemTypes.Hammer],
+    keep [Recipe.GetItemTypes.Saw],
     Wire=2,
     ElectricWire,
     Nails=10,
@@ -37,7 +37,7 @@ module DLTS {
   /** Limestone Extraction **/
 
   recipe LTS Find Limestone Chunks {
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     Stone=5,
     Result:LTSLimestone,
     Time:120.0,  
@@ -179,7 +179,7 @@ module DLTS {
   } 
 
   recipe LTS Crush Sand {
-    keep Sledgehammer/Sledgehammer2,
+    keep [Recipe.GetItemTypes.Sledgehammer],
     Gravelbag=4,
     EmptySandbag,
     Result:Sandbag,
@@ -201,7 +201,7 @@ module DLTS {
   }
 
   recipe LTS Craft Replacement Tool Handle {
-    keep HuntingKnife/KitchenKnife,
+    keep [Recipe.GetItemTypes.SharpKnife],
     Plank/TreeBranch,
     RippedSheets,
     Woodglue=1,
@@ -214,8 +214,8 @@ module DLTS {
   /** Create Processing Tools **/
 
   recipe LTS Build Drying Rack {
-    keep Saw,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Saw],
+    keep [Recipe.GetItemTypes.Hammer],
     Plank=4,
     Nails=8,
     Sheet,
@@ -227,9 +227,9 @@ module DLTS {
     OnGiveXP:CraftXP_WoodworkBase,
   }
   
-  recipe LTS Build Wood Burner {
-    keep Hammer,
-    keep Saw,
+  recipe LTS Build Distillation Equipment {
+    keep [Recipe.GetItemTypes.Hammer],
+    keep [Recipe.GetItemTypes.Saw],
     BlowTorch=5,
     keep WeldingMask,
     Pot=2,
@@ -248,7 +248,7 @@ module DLTS {
   recipe LTS Build Scrapping Saw {
     BlowTorch=5,
     keep WeldingMask,
-    Saw,
+    [Recipe.GetItemTypes.Saw],
     ScrapMetal=3,
     LTSSharpeningStone=3,
     Water=3,
@@ -282,7 +282,7 @@ module DLTS {
   /** Corpse Disposal **/  
   
   recipe LTS Butcher Corpse {
-    keep Machete/MeatCleaver/HandAxe/Axe/WoodAxe,
+    keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver/HandAxe/Axe/WoodAxe/Chainsaw/Katana/Scalpel/AxeStone,
     CorpseMale/CorpseFemale,
     Result:LTSCorpseFlesh=3,
     Time:240.0,
