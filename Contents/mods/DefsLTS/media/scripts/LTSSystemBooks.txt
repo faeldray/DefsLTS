@@ -17,8 +17,8 @@ module DLTS {
   
   recipe LTS Woodworking Practice {
     keep LTSWorkbookWood,
-    keep Saw,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Saw],
+    keep [Recipe.GetItemTypes.Hammer],
     Plank=2,
     Result:UnusableWood,
     Time:480.0,
@@ -38,7 +38,7 @@ module DLTS {
   
   recipe LTS Electricity Practice {
     keep LTSWorkbookElectricity,
-    keep Screwdriver,
+    keep [Recipe.GetItemTypes.Screwdriver],
     ElectronicsScrap=2,
     ElectricWire/Wire,
     Result:ElectronicsScrap,
@@ -58,7 +58,7 @@ module DLTS {
   
   recipe LTS Welding Practice {
     keep LTSWorkbookWelding,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask]WeldingMask,
     BlowTorch=2,
     ScrapMetal=2,
     Result:ScrapMetal,
