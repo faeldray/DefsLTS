@@ -6,7 +6,7 @@ module DLTS {
 
   recipe LTS Forge Metal Sheet {
     BlowTorch=7,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=10,
     Result:SheetMetal,
@@ -18,7 +18,7 @@ module DLTS {
   
   recipe LTS Forge Small Metal Sheet {
     BlowTorch=5,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=4,
     Result:SmallSheetMetal,
@@ -30,7 +30,7 @@ module DLTS {
 
   recipe LTS Forge Metal Bar {
     BlowTorch=5,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=4,
     Result:MetalBar,
@@ -42,7 +42,7 @@ module DLTS {
 
   recipe LTS Forge Metal Pipe {
     BlowTorch=7,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=5,
     Result:MetalPipe,
@@ -54,7 +54,7 @@ module DLTS {
 
   recipe LTS Forge Nails {
     BlowTorch=9,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=12,
     Result:NailsBox,
@@ -66,7 +66,7 @@ module DLTS {
 
   recipe LTS Forge Wire {
     BlowTorch=9,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     ScrapMetal=5,
     Result:Wire,
@@ -78,7 +78,7 @@ module DLTS {
 
   recipe LTS Forge Barbed Wire {
     BlowTorch=5,
-    keep [Recipe.GetItemTypes.WeldingMask]/WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep [Recipe.GetItemTypes.Hammer],
     Wire=5,
     ScrapMetal=3,
@@ -93,7 +93,7 @@ module DLTS {
   /** Smithing: Scrapping items (that make sense) into Metal Scrap **/
   
   /** Unusable Metal  (1 Scrap) (credit: BeatlJoe) **/
-  recipe Scrap Unusable Metal {
+  recipe LTS Scrap Metal {
 	keep LTSScrappingSaw,
 	UnusableMetal=3,
 	Result: ScrapMetal=1,
