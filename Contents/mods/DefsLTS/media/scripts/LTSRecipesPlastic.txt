@@ -79,7 +79,7 @@ module DLTS {
   /** Random Items (1 Scrap) **/
   recipe LTS Scrap Plastic {
     keep LTSScrappingSaw,
-    Garbagebag/Plasticbag/BluePen/Pen/RedPen/Paintbrush/ChessBlack/Disc/CreditCard/Cube/Dart/Dice/Toothbrush/Toothpaste/ChessWhite/Yoyo,
+    Garbagebag/Plasticbag/BluePen/Pen/RedPen/Paintbrush/ChessBlack/Disc/CreditCard/Cube/Dart/Dice/Toothbrush/Toothpaste/ChessWhite/Yoyo/PlasticCup/FishingTackle/FishingTackle2,
     Result:LTSScrapPlastic,
     Time:120.0,
     OnGiveXP:CraftXP_Scrapping,
@@ -90,7 +90,7 @@ module DLTS {
   /** Random Items (3 Scrap) **/
   recipe LTS Scrap Plastic {
     keep LTSScrappingSaw,
-    DogChew/Bricktoys/CatToy/Doll/ToyCar/WaterBottleEmpty/PopBottleEmpty/LTSChemEmpty,
+    DogChew/Bricktoys/CatToy/Doll/ToyCar/WaterBottleEmpty/PopBottleEmpty/LTSChemEmpty/PlasticTray/CuttingBoardPlastic/Basketball/Comb/GrillBrush/Rubberducky/BucketEmpty/SewingKit/FirstAidKit/Lunchbox/Lunchbox2/SnowShovel,
     Result:LTSScrapPlastic=2,
     Time:120.0,
     OnGiveXP:CraftXP_Scrapping,
