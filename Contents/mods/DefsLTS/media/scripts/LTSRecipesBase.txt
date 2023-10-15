@@ -290,5 +290,17 @@ module DLTS {
     Category:LTS-Base,
   }
   
+  /** ------------------------------------------------------------------------- **/
+  /** Charcoal recipe to get started **/  
+  
+  recipe LTS Make charcoal from twigs {
+    TinCanEmpty
+	Twigs=10
+    Result:Charcoal;1,
+    NearItem:Campfire,
+    Time:1000.0,
+    Category:LTS-Base,
+  }
+  
 }
   

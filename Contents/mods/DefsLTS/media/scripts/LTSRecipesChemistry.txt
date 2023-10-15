@@ -143,6 +143,18 @@ module DLTS {
   }
   
   /** ------------------------------------------------------------------------- **/
+  /** Gunpowder **/
+
+  recipe LTS Prepare Gunpowder {
+    keep MortarPestle,
+    LTSWoodAsh=3,
+    CompostBag;3,
+    Result:GunPowder,
+    Time:360.0, 
+    Category:LTS-Chem,
+  }
+
+  /** ------------------------------------------------------------------------- **/
   /** Base Materials **/
 
   recipe LTS Prepare Wood Bits {
