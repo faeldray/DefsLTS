@@ -132,7 +132,7 @@ module DLTS {
   /** Random Items (3 Scrap) **/
   recipe LTS Scrap Metal {
     keep LTSScrappingSaw,
-    Crowbar/Axe/Hammer/HandAxe/Katana/LugWrench/PipeWrench/Shovel/Shovel2/WoodAxe/Sledgehammer/Sledge[Recipe.GetItemTypes.Hammer]2/PickAxe/LTSPropaneTankEmpty/EmptyPetrolCan/LTSWaterCanEmpty/SmallSheetMetal/MetalBar/MetalPipe/NailsBox,
+    Crowbar/Axe/Hammer/HandAxe/Katana/LugWrench/PipeWrench/Shovel/Shovel2/WoodAxe/Sledgehammer/Sledgehammer2/PickAxe/LTSPropaneTankEmpty/EmptyPetrolCan/LTSWaterCanEmpty/SmallSheetMetal/MetalBar/MetalPipe/NailsBox,
     Result:ScrapMetal=3,
 	NoBrokenItems:false,
 	AllowDestroyedItem:true,
