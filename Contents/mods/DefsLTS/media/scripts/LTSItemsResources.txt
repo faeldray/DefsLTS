@@ -36,6 +36,7 @@ module DLTS {
   
   item LTSLighterFluid {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.8,
     DisplayName=Lighter Fluid,
     Icon=LighterFluidCan,
@@ -49,6 +50,7 @@ module DLTS {
   
   item LTSClingWrap {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Cling Wrap,
     Icon=ClingWrap,

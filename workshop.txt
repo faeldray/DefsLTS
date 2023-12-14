@@ -1,10 +1,29 @@
 version=1
 id=3051800131
 title=Def's Long Term Survival (Fixes & Tweaks)
-description=Complete overview is on the wiki https://github.com/faeldray/DefsLTS/wiki.
-description=
-description=In short: Food preservation, more foraging, simple metalwork, plastic recycling, kitchen sink chemistry, packaging, logistics, zombie loot, car trunks increased ... All based on real life!
-description=
-description=Please report any bugs so I can squish them!
+description=[h1][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1962914415]All credit goes to Def for making the original mod[/url][/h1]
+description=
+description=Complete overview is on the wiki https://github.com/faeldray/DefsLTS/wiki
+description=
+description=In short: Food preservation, more foraging, simple metalwork, plastic recycling, kitchen sink chemistry, packaging, logistics, zombie loot, car trunks increased ... All based on real life!
+description=
+description=[h2]Fixes/tweaks include:[/h2]
+description=[list]
+description=[*]Allowed any glue to be used in recipes instead of just wood glue
+description=[*]Reduced the amount of briquettes needed in recipes
+description=[*]Created difficult charcoal recipe to get started on charcoal stuff if you don’t have metal drums yet
+description=[*]Pine tar requires less pine cones and also allows vanilla pine cones
+description=[*]Added recipes for mayo bottles, remoulade bottles, and bowls
+description=[*]Renamed distillation equipment recipe
+description=[*]Added recipe to turn unusable metal into scrap metal
+description=[*]Scrapping weapons now works on broken weapons
+description=[*]Added recipe for gunpowder
+description=[*]More plastic items can be scrapped
+description=[*]Empty mayo/remoulade bottles and bowls can now be made from plastic
+description=[*]Pumpkins can be cut up into bits of fruit
+description=[*]Acorns can be used in nut recipes (butter/milk/flour)
+description=[*]Changed recipes to use item types where possible (ex. hammers, saws)[/list]
+description=
+description=[url=https://github.com/faeldray/DefsLTS/issues]Please report any bugs or suggestions on Github.[/url]
 tags=Build 41;Balance;Food;Items;Literature;Misc;Realistic;Weapons
 visibility=public

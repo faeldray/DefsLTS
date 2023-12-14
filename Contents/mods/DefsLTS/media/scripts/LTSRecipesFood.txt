@@ -63,7 +63,7 @@ module DLTS {
     LTSBitsHerbs=2,
     BlackSage=2,
     CommonMallow=2,
-    WildGarlic=2,
+    WildGarlic2=2,
     Result:LTSHoneyCandyHealing=6,
     OnGiveXP:CraftXP_FoodBase,
     Time:350,
@@ -303,7 +303,7 @@ module DLTS {
 
   recipe LTS Cut Bits of Herbs {
     keep [Recipe.GetItemTypes.SharpKnife],    
-	Violets/GrapeLeaves/BlackSage/CommonMallow/Ginseng/LemonGrass/WildGarlic/LTSDandelion/LTSCamomille/GingerRoot,
+	Violets/GrapeLeaves/BlackSage/CommonMallow/Ginseng/LemonGrass/WildGarlic2/LTSDandelion/LTSCamomille/GingerRoot,
     Result:LTSBitsHerbs=1,
     Sound:PZ_FoodSlicing,
     Time:40.0,

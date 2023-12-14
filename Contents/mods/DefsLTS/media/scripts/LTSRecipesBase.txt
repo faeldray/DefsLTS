@@ -304,6 +304,18 @@ module DLTS {
     Time:1000.0,
     Category:LTS-Base,
   }
+
+  /** ------------------------------------------------------------------------- **/
+  /** Convert LTS pinecones to vanilla pine cones (remove this later) **/  
+  
+  recipe LTS Clean Pinecones {
+    LTSPineCone,
+    Result:Pinecone,
+	CanBeDoneFromFloor:True,
+    Time:10.0,
+    Category:LTS-Base,
+  }
+  
   
 }
   

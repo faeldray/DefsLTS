@@ -36,7 +36,7 @@ module DLTS {
 
   item LTSPineCone {
     Type=Normal,
-    DisplayName=Pine Cone,
+    DisplayName=Dusty Pine Cone,
     Icon=PineCone,
     Weight=0.1,  
   }

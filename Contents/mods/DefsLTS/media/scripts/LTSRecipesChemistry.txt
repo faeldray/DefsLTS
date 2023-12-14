@@ -24,7 +24,7 @@ module DLTS {
     keep LTSWoodBurner,
     [Recipe.GetItemTypes.StartFire],
     LTSBriquette=1,
-    LTSPineCone/Pinecones=15,
+    Pinecone=5,
     Result:LTSPineTar,
     Time:560.0,
     Sound:PZ_Fire,

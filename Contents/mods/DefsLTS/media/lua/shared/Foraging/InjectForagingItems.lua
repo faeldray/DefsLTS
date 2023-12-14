@@ -27,17 +27,6 @@ function injectForagingData ()
         malusMonths = { 5, 6 },		
 	};
 	forageSystem.addItemDef(fDefComb);
-
-	local fDefCone = {
-		type = "DLTS.LTSPineCone",
-		categories = { "Firewood" },
-		minCount = 1,
-		maxCount = 6,
-		skill = 0,
-		xp = 6,
-        zones = { Forest=6, DeepForest=8, Vegitation=1, FarmLand=1, Farm=1 },	
-	};
-	forageSystem.addItemDef(fDefCone);
 	
 	local fDefWildOnion = {
 		type = "DLTS.LTSWildOnion",

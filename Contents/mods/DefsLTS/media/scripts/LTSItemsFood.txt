@@ -519,7 +519,7 @@ module DLTS {
     HungerChange=-5,
     DisplayName=Tea (Birch Bark),
     Icon=TeaBirch,
-    EvolvedRecipe=HotDrink:5,
+    EvolvedRecipe=HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
     EvolvedRecipeName=Tea,
   }
 
@@ -530,7 +530,7 @@ module DLTS {
     HungerChange=-5,
     DisplayName=Tea (Fruit),
     Icon=TeaFruit,
-    EvolvedRecipe=HotDrink:5,
+    EvolvedRecipe=HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
     EvolvedRecipeName=Tea,
   }
 
@@ -541,7 +541,7 @@ module DLTS {
     HungerChange=-5,
     DisplayName=Tea (Herbs),
     Icon=TeaHerbs,
-    EvolvedRecipe=HotDrink:5,
+    EvolvedRecipe=HotDrink:5;HotDrinkRed:5;HotDrinkWhite:5;HotDrinkSpiffo:5;HotDrinkTea:5,
     EvolvedRecipeName=Tea,
   }
   

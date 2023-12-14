@@ -9,6 +9,7 @@ module DLTS {
   
   item LTSStackBirchBark {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.6,
     DisplayName=Birch Bark Stack,
     Icon=BirchBark,
@@ -31,6 +32,7 @@ module DLTS {
 
   item LTSStackCamomille {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Camomille Stack,
     Icon=Camomille,
@@ -53,6 +55,7 @@ module DLTS {
 
   item LTSStackDandelion {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Dandelion Stack,
     Icon=Dandelion,
@@ -75,6 +78,7 @@ module DLTS {
   
   item LTSStackHoneyComb {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.8,
     DisplayName=Honey Comb Stack,
     Icon=HoneyComb,
@@ -97,6 +101,7 @@ module DLTS {
   
   item LTSStackPineCone {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.7,
     DisplayName=Pine Cone Stack,
     Icon=PineCone,
@@ -106,12 +111,12 @@ module DLTS {
   
   recipe LTS Get Pine Cone {
     LTSStackPineCone=1,
-    Result:LTSPineCone,
+    Result:Pinecone,
     Category:LTS-Logistics,
   }
   
   recipe LTS Wrap Pine Cone {
-    LTSPineCone=10,
+    Pinecone=10,
     LTSClingWrap=1,
     Result:LTSStackPineCone,
     Category:LTS-Logistics,
@@ -119,6 +124,7 @@ module DLTS {
 
   item LTSStackTobacco {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.5,
     DisplayName=Tobacco Stack,
     Icon=Tobacco,
@@ -141,6 +147,7 @@ module DLTS {
 
   item LTSStackWildNuts {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.5,
     DisplayName=Wild Nuts Stack,
     Icon=Nuts,
@@ -166,6 +173,7 @@ module DLTS {
   
   item LTSStackViolets {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Violets Stack,
     Icon=Violets,
@@ -188,6 +196,7 @@ module DLTS {
   
   item LTSStackGrapeLeaves {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Grape Leaves Stack,
     Icon=GrapeLeaves,
@@ -210,6 +219,7 @@ module DLTS {
   
   item LTSStackRosehips {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Rosehips Stack,
     Icon=Rosehips,
@@ -232,6 +242,7 @@ module DLTS {
 
   item LTSStackBlackSage {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Black Sage Stack,
     Icon=BlackSage,
@@ -254,6 +265,7 @@ module DLTS {
 
   item LTSStackComfrey {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Comfrey Stack,
     Icon=Comfrey,
@@ -276,6 +288,7 @@ module DLTS {
 
   item LTSStackCommonMallow {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Common Mallow Stack,
     Icon=CommonMallow,
@@ -298,6 +311,7 @@ module DLTS {
 
   item LTSStackGinseng {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Ginseng Stack,
     Icon=Ginseng,
@@ -320,6 +334,7 @@ module DLTS {
 
   item LTSStackLemonGrass {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Lemon Grass Stack,
     Icon=LemonGrass,
@@ -342,6 +357,7 @@ module DLTS {
   
   item LTSStackPlantain {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Plantain Stack,
     Icon=PlantainPlantago,
@@ -364,6 +380,7 @@ module DLTS {
 
   item LTSStackWildGarlic {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.4,
     DisplayName=Wild Garlic Stack,
     Icon=WildGarlic,
@@ -373,12 +390,12 @@ module DLTS {
   
   recipe LTS Get Wild Garlic {
     LTSStackWildGarlic=1,
-    Result:WildGarlic,
+    Result:WildGarlic2,
     Category:LTS-Logistics,
   }
   
   recipe LTS Wrap Wild Garlic {
-    WildGarlic=10,
+    WildGarlic2=10,
     LTSClingWrap=1,
     Result:LTSStackWildGarlic,
     Category:LTS-Logistics,
@@ -389,6 +406,7 @@ module DLTS {
 
   item LTSStackSharpedStone {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.8,
     DisplayName=Chipped Stone Stack,
     Icon=RockSharpened,
@@ -411,6 +429,7 @@ module DLTS {
 
   item LTSStackStone {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.8,
     DisplayName=Stone Stack,
     Icon=Rock,
@@ -433,6 +452,7 @@ module DLTS {
 
   item LTSStackTreeBranch {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.7,
     DisplayName=Tree Branch Stack,
     Icon=Branch,
@@ -455,6 +475,7 @@ module DLTS {
 
   item LTSStackTwigs {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.6,
     DisplayName=Twigs Stack,
     Icon=Twigs,
@@ -480,6 +501,7 @@ module DLTS {
 
   item LTSStackCockroach {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Cockroach Stack,
     Icon=Cockroach,
@@ -502,6 +524,7 @@ module DLTS {
   
   item LTSStackCricket {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Cricket Stack,
     Icon=Cricket,
@@ -524,6 +547,7 @@ module DLTS {
   
   item LTSStackGrasshopper {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Grasshopper Stack,
     Icon=Grasshopper,
@@ -546,6 +570,7 @@ module DLTS {
   
   item LTSStackWorm {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Worm Stack,
     Icon=Worm,
@@ -571,6 +596,7 @@ module DLTS {
 
   item LTSStackWoodBits {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.7,
     DisplayName=Wood Bits Stack,
     Icon=WoodBits,
@@ -593,6 +619,7 @@ module DLTS {
 
   item LTSStackWoodAsh {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Wood Ash Stack,
     Icon=WoodAsh,
@@ -615,6 +642,7 @@ module DLTS {
 
   item LTSStackCharcoalPowder {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Charcoal Powder Stack,
     Icon=CharcoalPowder,
@@ -637,6 +665,7 @@ module DLTS {
 
   item LTSStackLimestone {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=1.0,
     DisplayName=Limestone Chunks Stack,
     Icon=Limestone,
@@ -659,6 +688,7 @@ module DLTS {
 
   item LTSStackBriquette {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=3.0,
     DisplayName=Briquette Stack,
     Icon=Briquette,
@@ -684,6 +714,7 @@ module DLTS {
 
   item LTSStackElectronicsScrap {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Electronics Scrap Stack,
     Icon=ElectronicsScrap,
@@ -706,6 +737,7 @@ module DLTS {
 
   item LTSStackScrapMetal {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Scrap Metal Stack,
     Icon=ScrapMetal,
@@ -728,6 +760,7 @@ module DLTS {
 
   item LTSStackScrapPlastic {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Scrap Plastic Stack,
     Icon=ScrapPlastic,
@@ -753,6 +786,7 @@ module DLTS {
 
   item LTSStackLog {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=12,
     DisplayName=Log Stack,
     Icon=Logs,
@@ -775,6 +809,7 @@ module DLTS {
   
   item LTSStackPlank {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=5,
     DisplayName=Plank Stack,
     Icon=Plank,
@@ -797,6 +832,7 @@ module DLTS {
   
   item LTSStackSheetMetal {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=3.5,
     DisplayName=Metal Sheet Stack,
     Icon=SheetMetal,
@@ -819,6 +855,7 @@ module DLTS {
   
   item LTSStackSmallSheetMetal {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=1.5,
     DisplayName=Small Metal Sheet Stack,
     Icon=MetalSheetSmall,
@@ -841,6 +878,7 @@ module DLTS {
   
   item LTSStackMetalPipe {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=1.5,
     DisplayName=Metal Pipe Stack,
     Icon=MetalTube,
@@ -863,6 +901,7 @@ module DLTS {
 
   item LTSStackMetalBar {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=3.5,
     DisplayName=Metal Bar Stack,
     Icon=MetalBar,
@@ -885,6 +924,7 @@ module DLTS {
   
   item LTSStackHinge {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.9,
     DisplayName=Hinge Stack,
     Icon=Doorhinge,
@@ -907,6 +947,7 @@ module DLTS {
   
   item LTSStackDoorknob {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=1.5,
     DisplayName=Doorknob Stack,
     Icon=DoorKnob,
@@ -932,6 +973,7 @@ module DLTS {
   
   item LTSStackHoneyCandyFruit {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Honey Candy [Fruit] Stack,
     Icon=HerbalCandy2,
@@ -954,6 +996,7 @@ module DLTS {
   
   item LTSStackHoneyCandyHealing {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Honey Candy [Healing] Stack,
     Icon=HerbalCandy3,
@@ -976,6 +1019,7 @@ module DLTS {
   
   item LTSStackHoneyCandyEnergy {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Honey Candy [Energy] Stack,
     Icon=HerbalCandy1,
@@ -998,6 +1042,7 @@ module DLTS {
   
   item LTSStackHoneyBar {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.3,
     DisplayName=Honey Bar Stack,
     Icon=HoneyBar,
@@ -1020,6 +1065,7 @@ module DLTS {
   
   item LTSStackDriedMeat {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.2,
     DisplayName=Dried Meat Stack,
     Icon=DriedMeat,
@@ -1042,6 +1088,7 @@ module DLTS {
   
   item LTSStackDriedHerbs {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.2,
     DisplayName=Dried Herbs Stack,
     Icon=DriedHerbs,
@@ -1064,6 +1111,7 @@ module DLTS {
   
   item LTSStackDriedVegetable {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.2,
     DisplayName=Dried Vegetable Stack,
     Icon=DriedVegetable,
@@ -1086,6 +1134,7 @@ module DLTS {
   
   item LTSStackDriedFruit {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.2,
     DisplayName=Dried Fruit Stack,
     Icon=DriedFruit,
@@ -1108,6 +1157,7 @@ module DLTS {
   
   item LTSStackDriedMushroom {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.2,
     DisplayName=Dried Mushroom Stack,
     Icon=DriedMushroom,
@@ -1130,6 +1180,7 @@ module DLTS {
   
   item LTSStackTeaServingBirch {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Tea (Birch Bark) Stack,
     Icon=TeaBirch,
@@ -1152,6 +1203,7 @@ module DLTS {
   
   item LTSStackTeaServingFruit {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Tea (Fruit) Stack,
     Icon=TeaFruit,
@@ -1174,6 +1226,7 @@ module DLTS {
   
   item LTSStackTeaServingHerbs {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=0.1,
     DisplayName=Tea (Herbs) Stack,
     Icon=TeaHerbs,

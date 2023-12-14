@@ -40,6 +40,7 @@ module DLTS {
 
   item LTSCarParts {
     Type=Drainable,
+	UseWhileEquipped=FALSE,
     Weight=6.0,
     DisplayName=Car Maintenance Materials,
     Icon=BoxParts,
